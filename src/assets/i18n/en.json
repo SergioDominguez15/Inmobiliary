@@ -1,9 +1,24 @@
 {
     "home":{
         "title":"Inmobilary",
-        "langButton":"Change Language"
+        "langButton":"Change Language",
+        "descrip": "2nd DAM student at CPIFP NUEVO academic year 2022/2023",
+        "subtitle1":"App for Real Estate",
+        "subtitle2":"Real Estate, app developed by Sergio Dominguez Gomez to manage visits from real estate clients with available houses.",
+        "subtitle3":"Professional training center",
+        "subtitle4":"CPIFP Nuevo is an Integrated Center located in the Andalusia Technology Park (PTA). It has degrees in the Computer Science and Communications branch, as well as specialization courses. In the heart of the technology park surrounded by companies in the sector."
     },
     "assignment":{
-        "edit":"Edit"
+        "edit":"Edit",
+        "delete":"Delete"
+    },
+    "person":{
+        "edit":"Edit",
+        "delete":"Delete"        
+    },
+    "task":{
+        "edit":"Edit",
+        "delete":"Delete"        
     }
+    
 }

@@ -1,9 +1,23 @@
 {
     "home":{
         "title":"Inmobilary",
-        "langButton":"Cambia idioma"
+        "langButton":"Cambia idioma",
+        "descrip": "Alumno de 2ºDAM en CPIFP Nuevo curso 2022/2023 ",
+        "subtitle1": "App para Inmobiliarias",
+        "subtitle2": "Inmobiliary, app desarrollada por Sergio Dominguez Gomez para gestionar las visitas de los clientes de la inmobiliaria con las casas disponibles.",
+        "subtitle3": "Centro de formacion",
+        "subtitle4": "CPIFP Nuevo es un Centro Integrado situado en el Parque Tecnológico de Andalucía (PTA). Dispone de Los grados de la rama de Informática y Comunicaciones, así como los cursos de especialización. En pleno corazon del parque tecnológico rodeado por empresas del sector."
     },
     "assignment":{
-        "edit":"Editar"
+        "edit":"Editar",
+        "delete":"Borrar"
+    },
+    "person":{
+        "edit":"Editar",
+        "delete":"Borrar"        
+    },
+    "task":{
+        "edit":"Editar",
+        "delete":"Borrar"        
     }
 }
