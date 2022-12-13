@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Datos de la persona</ion-title>
+    <ion-title>{{'person.title' | translate }}</ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="onDismiss(null)">Cerrar</ion-button>
     </ion-buttons>
@@ -12,19 +12,19 @@
   <form [formGroup]="form" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
     <ion-item>
       <ion-label position="floating">
-        Nombre
+        {{'person.name' | translate }}
       </ion-label>
       <ion-input type="text" placeholder="Introduce tu nombre" formControlName="name"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">
-        Apellidos
+        {{'person.ape' | translate }}
       </ion-label>
       <ion-input type="text" placeholder="Introduce tus apellidos" formControlName="surname"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">
-        Telefono
+        {{'person.tlf' | translate }}
       </ion-label>
       <ion-input type="text" placeholder="Introduce tu Telefono" formControlName="tlf"></ion-input>
     </ion-item>

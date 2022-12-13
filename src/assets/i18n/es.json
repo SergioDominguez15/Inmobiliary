@@ -10,14 +10,27 @@
     },
     "assignment":{
         "edit":"Editar",
-        "delete":"Borrar"
+        "delete":"Borrar",
+        "title":"Datos de la cita",
+        "house":"Casa",
+        "persona":"Cliente",
+        "fecha":"Fecha y hora"
     },
     "person":{
         "edit":"Editar",
-        "delete":"Borrar"        
+        "delete":"Borrar",
+        "title":"Datos del cliente",
+        "tlf":"Numero de telefono",
+        "ape":"Apellidos",
+        "name":"Nombre"         
     },
     "task":{
         "edit":"Editar",
-        "delete":"Borrar"        
+        "delete":"Borrar",  
+        "title":"Datos de la casa",
+        "name":"Nombre",
+        "price":"Precio",
+        "direction":"Direccion",
+        "modificar":"Modificar"        
     }
 }

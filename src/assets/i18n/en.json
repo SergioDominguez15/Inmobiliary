@@ -10,15 +10,29 @@
     },
     "assignment":{
         "edit":"Edit",
-        "delete":"Delete"
+        "delete":"Delete",
+        "title":"Appointment data",
+        "house":"House",
+        "persona":"Client",
+        "fecha":"Date and Hour"
     },
     "person":{
         "edit":"Edit",
-        "delete":"Delete"        
+        "delete":"Delete",
+        "title":"Client data",
+        "tlf":"Telephone Number",
+        "ape":"Surname",
+        "name":"Name"          
     },
     "task":{
         "edit":"Edit",
-        "delete":"Delete"        
+        "delete":"Delete",  
+        "title":"House Dates",
+        "name":"Name",
+        "price":"Price",
+        "direction":"Directions",
+        "modificar":"Change"
+
     }
     
 }
