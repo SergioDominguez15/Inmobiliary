@@ -32,5 +32,8 @@
         "price":"Precio",
         "direction":"Direccion",
         "modificar":"Modificar"        
+    },
+    "titulos":{
+        "about":"Acerca de"
     }
 }

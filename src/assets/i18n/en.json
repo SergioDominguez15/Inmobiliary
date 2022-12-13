@@ -33,6 +33,10 @@
         "direction":"Directions",
         "modificar":"Change"
 
+    },
+    "titulos":{
+        "about":"About"
     }
+
     
 }
