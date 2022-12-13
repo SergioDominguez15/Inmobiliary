@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Datos de la Casa</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="onDismiss(null)">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-img [src]="form.controls.picture.value"></ion-img>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
+    <ion-item>
+      <ion-label position="floating">
+        Nombre
+      </ion-label>
+      <ion-input type="text" placeholder="Introduce el nombre de la casa" formControlName="name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">
+        Precio
+      </ion-label>
+      <ion-input type="text" placeholder="Introduce el precio de venta" formControlName="precio"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">
+        Direccion
+      </ion-label>
+      <ion-input type="text" placeholder="Introduce la direccion de la casa" formControlName="Direccion"></ion-input>
+    </ion-item>
+  </form>
+</ion-content>
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-button [disabled]="!form.valid" (click)="onSubmit()">{{mode=="Edit"?"Modificar":"Añadir"}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

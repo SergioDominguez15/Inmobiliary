@@ -1,0 +1,21 @@
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+
+  }
+
+  ion-card {
+    column-count: 2;
+    width: 50%;
+   
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+  }
+
+  #tres {
+    width: 100%;
+  }
