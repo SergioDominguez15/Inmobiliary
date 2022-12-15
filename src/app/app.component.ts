@@ -7,11 +7,12 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'About', url: '/folder/Home', icon: 'information-circle'},
+
     { title: 'Cliente', url: '/folder/People', icon: 'people' },
     { title: 'Casas', url: '/folder/Tasks', icon: 'home' },
     { title: 'Citas', url: '/folder/Assignments', icon: 'time' },
     { title: 'Calendario de Citas', url: '/folder/Task Panel', icon: 'calendar-number' },
+    { title: 'About', url: '/folder/Home', icon: 'information-circle'},
   ];
   public labels = [];
 
